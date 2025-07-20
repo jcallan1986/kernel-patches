@@ -134,7 +134,7 @@
 +#endif
  	return ksys_read(fd, buf, count);
  }
- --- a/fs/namespace.c
+--- a/fs/namespace.c
 +++ b/fs/namespace.c
 @@ -1739,6 +1739,39 @@ static inline bool may_mandlock(void)
  }
